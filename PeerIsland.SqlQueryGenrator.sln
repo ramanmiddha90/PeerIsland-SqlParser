@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerIsland.SqlQueryGenrator", "PeerIsland.SqlQueryGenrator\PeerIsland.SqlQueryGenrator.csproj", "{86404DE6-EFC9-4597-B9B4-A800FF4BF823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerIsland.SqlQueryGenerator.Configuration", "PeerIsland.SqlQueryGenerator.Configuration\PeerIsland.SqlQueryGenerator.Configuration.csproj", "{DD0602CF-A4A7-4D3E-AB7F-CEDB09FBA585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerIsland.Settings.Parser", "PeerIsland.Settings.Parser\PeerIsland.Settings.Parser.csproj", "{9A3F92A9-5522-40EF-B740-BA8E038349C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerIsland.SqlQueryGenerator.UnitTests", "PeerIsland.SqlQueryGenerator.UnitTests\PeerIsland.SqlQueryGenerator.UnitTests.csproj", "{17A73478-2BEE-4891-9CCD-45E5E017483C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86404DE6-EFC9-4597-B9B4-A800FF4BF823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86404DE6-EFC9-4597-B9B4-A800FF4BF823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86404DE6-EFC9-4597-B9B4-A800FF4BF823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86404DE6-EFC9-4597-B9B4-A800FF4BF823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0602CF-A4A7-4D3E-AB7F-CEDB09FBA585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0602CF-A4A7-4D3E-AB7F-CEDB09FBA585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0602CF-A4A7-4D3E-AB7F-CEDB09FBA585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0602CF-A4A7-4D3E-AB7F-CEDB09FBA585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3F92A9-5522-40EF-B740-BA8E038349C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3F92A9-5522-40EF-B740-BA8E038349C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3F92A9-5522-40EF-B740-BA8E038349C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3F92A9-5522-40EF-B740-BA8E038349C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A73478-2BEE-4891-9CCD-45E5E017483C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A73478-2BEE-4891-9CCD-45E5E017483C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A73478-2BEE-4891-9CCD-45E5E017483C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A73478-2BEE-4891-9CCD-45E5E017483C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29525CCF-7CAE-41F3-8317-3230ADB98BD1}
+	EndGlobalSection
+EndGlobal
