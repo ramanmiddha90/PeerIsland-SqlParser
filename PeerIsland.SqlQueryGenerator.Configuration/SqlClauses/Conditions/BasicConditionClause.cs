@@ -1,7 +1,6 @@
 ﻿using PeerIsland.SqlQueryGenerator.Configuration.SqlClauses.Enums;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 {
@@ -13,14 +12,10 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 
         public string FieldValue { get; set; }
 
-        internal BasicConidtionClause(OperatorTypes operatorType,string fieldName, string fieldValue) : base("Operator")
+        public BasicConidtionClause() : base("Condition")
         {
-            this.OperatorType = operatorType;
-            this.FieldName = fieldName;
-            this.FieldValue = fieldValue;
-
         }
-
+        public IDictionary<string, IDictionary<string, object>> ClauseSection { get; private set; }
         public override bool IsValidClause()
         {
             return true;
@@ -28,12 +23,38 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 
         public override AbstractClause WithClauseProperties(IDictionary<string, IDictionary<string, object>> clause)
         {
-            throw new NotImplementedException();
+            this.ClauseSection = clause;
+            return this;
         }
 
         public override AbstractClause Build()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var clauseProperties = ClauseSection[ClauseType.ToUpper()];
+
+                if (clauseProperties == null || clauseProperties.Count <= 0)
+                    throw new InvalidOperationException();
+
+                this.FieldName = PropertyBinder.BindProperty<string>("FieldName", clauseProperties);
+                if (string.IsNullOrEmpty(FieldName))
+                    throw new FormatException("FieldName missing");
+
+                this.FieldValue = PropertyBinder.BindProperty<string>("FieldValue", clauseProperties);
+
+                if (string.IsNullOrEmpty(FieldValue))
+                    throw new FormatException("FieldValue missing");
+
+                if(Enum.TryParse(PropertyBinder.BindProperty<string>("Operator", clauseProperties), out OperatorTypes operatorType))
+                    this.OperatorType = operatorType;
+                else
+                    throw new FormatException("FieldValue missing");
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Error creating select clause {ex.Message}");
+            }
+            return this;
         }
     }
 }

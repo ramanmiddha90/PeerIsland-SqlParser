@@ -12,7 +12,8 @@ namespace PeerIsland.SqlQueryGenerator.Configuration
             {"FROM", typeof(FromClause) },
             {"IN", typeof(InClause) },
             {"GROUPBY", typeof(InClause) },
-            {"JOIN", typeof(JoinClause) }
+            {"JOIN", typeof(JoinClause) },
+            {"CONDITION", typeof(BasicConidtionClause) }
             };
 
 

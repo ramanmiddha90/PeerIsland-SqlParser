@@ -106,7 +106,6 @@ C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlQuer
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\Sample.json
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.UnitTests.deps.json
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.UnitTests.runtimeconfig.json
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.UnitTests.runtimeconfig.dev.json
@@ -208,3 +207,6 @@ C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\obj\Debug\ne
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.UnitTests.dll
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.UnitTests.pdb
 C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.UnitTests.genruntimeconfig.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\Simple.json
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\WithAliasWithWhere.json
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.UnitTests\bin\Debug\netcoreapp3.1\WithWhere.json

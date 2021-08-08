@@ -8,11 +8,8 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses.Conditions
         public T Higher { get; set; }
         public T Lower { get; set; }
 
-        internal BetweenConidtionClause(string columnName, T higher, T lower) : base("Operator")
+        public BetweenConidtionClause() : base("Between")
         {
-            this.ColumnName = columnName;
-            this.Higher =higher;
-            this.Lower = lower;
         }
 
         public override bool IsValidClause()
