@@ -5560,11 +5560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
+      "projectUniqueName": "C:\\Personal\\Repo\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
       "projectName": "PeerIsland.SqlQueryGenerator.UnitTests",
-      "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
+      "projectPath": "C:\\Personal\\Repo\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Raman Kumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\obj\\",
+      "outputPath": "C:\\Personal\\Repo\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5584,8 +5584,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj": {
-              "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj"
+            "C:\\Personal\\Repo\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj": {
+              "projectPath": "C:\\Personal\\Repo\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj"
             }
           }
         }
