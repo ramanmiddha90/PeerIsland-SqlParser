@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pjNIWx0BVCccRh4MtGsUo0uHWLR29NNJwGVEJCN3oP2Gm0DWwrWqK1zthr5M0k+vBzlsf0KbVPQSc1Mr43f0g==",
+  "dgSpecHash": "9WCCAdwXx8Fz1bQg8bkiaKNysqX67kPCOuoBkBHii2vpeYM1FntaMQuFStyPawXrIyDLi6PLhcOl7iSmvyfkCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
+  "projectFilePath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

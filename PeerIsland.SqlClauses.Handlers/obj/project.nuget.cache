@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ADjvhYeWdGcZ4UmSFux+AaqxhCduKU4B0JXSnRRW1Z3vJP4WA3qDBzxnkAH1QD+q/+QX5eXaELP1Mp77jtoUPQ==",
+  "dgSpecHash": "ZeHDCEh3xXomqWZcZVA9t+v/nQY4DNOfnTbEDuryO0ODWZfYOrLwCT4ElHBUbRlWUKJ6jvGqafRWQtcyP40aFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlClauses.Handlers\\PeerIsland.SqlClauses.Json.Handlers.csproj",
+  "projectFilePath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlClauses.Handlers\\PeerIsland.SqlClauses.Json.Handlers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

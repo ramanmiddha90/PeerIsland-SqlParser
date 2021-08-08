@@ -38,8 +38,8 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
                 if (clauseProperties == null || clauseProperties.Count <= 0)
                     throw new InvalidOperationException();
 
-                this.TableName = PropertyBinder.BindProperty<string>("TableName", ClauseSection);
-                this.Alias = PropertyBinder.BindProperty<string>("Alias", ClauseSection);
+                this.TableName = PropertyBinder.BindProperty<string>("TableName", clauseProperties);
+                this.Alias = PropertyBinder.BindProperty<string>("Alias", clauseProperties);
               
             }
             catch (Exception ex)

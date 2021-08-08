@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj": {}
+    "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj": {
+    "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj",
+        "projectUniqueName": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj",
         "projectName": "PeerIsland.Settings.Parser",
-        "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj",
+        "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj",
         "packagesPath": "C:\\Users\\Raman Kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.Settings.Parser\\obj\\",
+        "outputPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.Settings.Parser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
-                "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj"
+              "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
+                "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
+    "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
+        "projectUniqueName": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
         "projectName": "PeerIsland.SqlQueryGenerator.Configuration",
-        "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
+        "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
         "packagesPath": "C:\\Users\\Raman Kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\obj\\",
+        "outputPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj": {
+    "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
+        "projectUniqueName": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
         "projectName": "PeerIsland.SqlQueryGenerator.UnitTests",
-        "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
+        "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
         "packagesPath": "C:\\Users\\Raman Kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.UnitTests\\obj\\",
+        "outputPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -155,8 +155,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj": {
-                "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj"
+              "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj": {
+                "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj"
               }
             }
           }
@@ -211,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj": {
+    "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj",
+        "projectUniqueName": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj",
         "projectName": "PeerIsland.SqlQueryGenrator",
-        "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj",
+        "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator.csproj",
         "packagesPath": "C:\\Users\\Raman Kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenrator\\obj\\",
+        "outputPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenrator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -238,11 +238,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj": {
-                "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj"
+              "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj": {
+                "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.Settings.Parser\\PeerIsland.Settings.Parser.csproj"
               },
-              "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
-                "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj"
+              "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
+                "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj"
               }
             }
           }

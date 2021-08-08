@@ -12,3 +12,17 @@ C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlQuer
 C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.csproj.CopyComplete
 C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.dll
 C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.pdb
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.deps.json
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.pdb
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.pdb
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.csprojAssemblyReference.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.AssemblyInfoInputs.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.AssemblyInfo.cs
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.csproj.CoreCompileInputs.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.csproj.CopyComplete
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlQueryGenrator\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenrator.pdb

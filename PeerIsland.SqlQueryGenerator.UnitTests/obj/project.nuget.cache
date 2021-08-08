@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D25ZljhLaA52rSwkYPR/uoH/d/dzn1WEim+tDcowRVw/yBwKeQ3x0RYTzRal7PP2e83WZWYwc7bC1s5/qVkfvw==",
+  "dgSpecHash": "7re2KZN5f0azW39BkTHe5fCrbInfKRValSnbZlbB9nijU6lq0IiZObsLETYB1APM+fZFQkaWqfI+tbLwXZe5yQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
+  "projectFilePath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.UnitTests\\PeerIsland.SqlQueryGenerator.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raman Kumar\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Raman Kumar\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
