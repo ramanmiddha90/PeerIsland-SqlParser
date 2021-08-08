@@ -1,0 +1,22 @@
+{
+  "columns": [
+    {
+      "Type": "Select",
+      "IncludedColumns": [
+        "EmployeeName",
+        "Date"
+      ],
+      "IsDistinctIncluded": "True"
+    },
+    {
+      "Type": "From",
+      "TableName": "Table1"
+    },
+    {
+      "Type": "CONDITION",
+      "FieldName": "Age",
+      "FieldValue": 50,
+      "Operator": "Equal"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {
+      "Type": "Select",
+      "IncludedColumns": [
+        "EmployeeName",
+        "Date"
+      ],
+      "IsDistinctIncluded": "True"
+    },
+    {
+      "Type": "From",
+      "TableName": "Table1"
+    }
+  ]
+}

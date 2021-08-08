@@ -1,0 +1,16 @@
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csprojAssemblyReference.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.AssemblyInfoInputs.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.AssemblyInfo.cs
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csproj.CoreCompileInputs.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\bin\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.deps.json
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\bin\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\bin\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.pdb
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csprojAssemblyReference.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.AssemblyInfoInputs.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.AssemblyInfo.cs
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csproj.CoreCompileInputs.cache
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csproj.CopyComplete
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.dll
+C:\Code\PeerIsland-SqlParser\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.pdb
