@@ -34,3 +34,15 @@ C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debu
 C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csproj.CopyComplete
 C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.dll
 C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.pdb
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.deps.json
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.dll
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.pdb
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csprojAssemblyReference.cache
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.AssemblyInfoInputs.cache
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.AssemblyInfo.cs
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csproj.CoreCompileInputs.cache
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csproj.CopyComplete
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.dll
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.pdb

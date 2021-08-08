@@ -25,3 +25,12 @@ C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Config
 C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.csproj.CoreCompileInputs.cache
 C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
 C:\PeerIslandAssignment\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.deps.json
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.csprojAssemblyReference.cache
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.AssemblyInfoInputs.cache
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.AssemblyInfo.cs
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.csproj.CoreCompileInputs.cache
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
+C:\Personal\Repo\PeerIsland-SqlParser\PeerIsland.SqlQueryGenerator.Configuration\obj\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb

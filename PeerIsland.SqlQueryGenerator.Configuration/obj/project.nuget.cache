@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0jI34i9B/R5dy/AFyyvGJNCNVR+xPCoYe/CTrw+CpPo6c2ZIKJZ3HKBbGl3zTkGz0uPa2zYIInLCqjGQqVrog==",
+  "dgSpecHash": "1Weljkb743eRBxO2n+NfoEtcTDV/xkdI7ofONLvi1uRY0iTefyWygkJlHL45RiqtO0LtEUuPnW3DAq6GBAwNpQ==",
   "success": true,
-  "projectFilePath": "C:\\PeerIslandAssignment\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
+  "projectFilePath": "C:\\Personal\\Repo\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
