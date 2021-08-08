@@ -7,6 +7,9 @@ using System.Collections.Generic;
 
 namespace PeerIsland.SqlQueryGenrator
 {
+    /// <summary>
+    /// SQL Query Generator for JSON string
+    /// </summary>
     public class SQLGenerator : IQueryGenerator
     {
         public string Generate(string Input, Func<IList<AbstractClause>, string> builder)

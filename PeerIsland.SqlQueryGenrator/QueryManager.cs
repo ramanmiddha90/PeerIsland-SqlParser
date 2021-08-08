@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace PeerIsland.SqlQueryGenrator
 {
+    /// <summary>
+    /// Class initializing parsing operation
+    /// </summary>
     public class QueryManager
     {
         private IQueryGenerator _generator;
@@ -15,9 +18,15 @@ namespace PeerIsland.SqlQueryGenrator
             _generator = generator ?? throw new ArgumentNullException(nameof(generator));
             this.builder = builder;
         }
-        public string GenerateQueryFromJson(string Input)
+
+        /// <summary>
+        /// Call this method to parse json string into sql query
+        /// </summary>
+        /// <param name="Input">JsonInput</param>
+        /// <returns></returns>
+        public string GenerateQueryFromJson(string JSON)
         {
-            return _generator.Generate(Input, builder);
+            return _generator.Generate(JSON, builder);
         }
     }
 }

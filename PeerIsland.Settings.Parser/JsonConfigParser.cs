@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace PeerIsland.Settings.Parser
 {
+    /// <summary>
+    /// Class to generate clauses from source
+    /// </summary>
     public class JsonStringParser : IConfigParser
     {
         private string InputJson;
@@ -18,7 +21,6 @@ namespace PeerIsland.Settings.Parser
 
         }
 
-        //Start json parsing here
         public IList<AbstractClause> GenerateClausesFromJson()
         {
             var rootObject = JObject.Parse(InputJson);

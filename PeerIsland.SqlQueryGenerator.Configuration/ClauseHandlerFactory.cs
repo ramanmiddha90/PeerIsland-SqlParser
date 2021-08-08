@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration
 {
+    /// <summary>
+    /// Factory class initializing clause based on type
+    /// </summary>
     public class ClauseHandlerFactory
     {
        static IDictionary<string, Type> Mapping = new Dictionary<string, Type>()

@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration
 {
-   public class QuerySettingConfiguration
+    public class QuerySettingConfiguration
     {
         public QueryConfiguration _queryConfiguration;
 
@@ -12,6 +10,11 @@ namespace PeerIsland.SqlQueryGenerator.Configuration
         {
             _queryConfiguration=queryConfiguration ??   throw new ArgumentNullException(nameof(queryConfiguration));
         }
+        /// <summary>
+        /// Call parse handler to redirect the call to provider
+        /// </summary>
+        /// <param name="parser"></param>
+        /// <returns></returns>
         public QueryConfiguration Parse(IConfigParser parser)
         {
             parser.Parse(_queryConfiguration);

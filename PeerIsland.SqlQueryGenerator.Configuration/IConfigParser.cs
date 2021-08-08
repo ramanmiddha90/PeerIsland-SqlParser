@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PeerIsland.SqlQueryGenerator.Configuration
+﻿namespace PeerIsland.SqlQueryGenerator.Configuration
 {
     public interface IConfigParser
     {
+        /// <summary>
+        /// Implemnet this method in custom configuration provider
+        /// </summary>
+        /// <param name="configuraion"></param>
         public void Parse(QueryConfiguration configuraion);
     }
 }

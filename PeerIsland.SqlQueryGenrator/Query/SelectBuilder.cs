@@ -1,10 +1,14 @@
 ﻿using PeerIsland.SqlQueryGenerator.Configuration.SqlClauses;
-using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace PeerIsland.SqlQueryGenrator.Query
 {
+    /// <summary>
+    /// Builder to generate string for select clause
+    /// </summary>
+    /// <param name="selectBuilder">Builder to append string</param>
+    /// <param name="clause">Select Appender. Use this for Select clause only.</param>
+    /// <returns>selectBuilder</returns>
     public class SelectBuilder : Query
     {
         public override StringBuilder Build(StringBuilder selectBuilder,AbstractClause clause)
@@ -15,19 +19,16 @@ namespace PeerIsland.SqlQueryGenrator.Query
 
             if (selectClause.IsDistinctIncluded)
             {
-                selectBuilder.Append(Space());
-                selectBuilder.Append("distinct");
+                selectBuilder.Append($" distinct");
             }
 
             if (selectClause.Columns.Count > 0)
             {
-                selectBuilder.Append(Space());
-                selectBuilder.Append(string.Join(',', selectClause.Columns));
+                selectBuilder.Append($" {string.Join(',', selectClause.Columns)}");
             }
             else
             {
-                selectBuilder.Append(Space());
-                selectBuilder.Append("*");
+                selectBuilder.Append(" *");
             }
             return selectBuilder;
         }

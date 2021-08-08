@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 namespace PeerIsland.SqlQueryGenrator
 {
+    /// <summary>
+    /// Processor to process all clauses and generate sql 
+    /// </summary>
     public class SqlQueryBuilder : IBuilder, IQueryProcessor
     {
         private readonly StringBuilder sqlQuery = new StringBuilder();

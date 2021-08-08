@@ -2,10 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 
 namespace PeerIsland.Settings.Parser
 {
+    /// <summary>
+    /// Json Parser
+    /// Enhance this class to handle all scenarios
+    /// </summary>
     public class JsonParser
     {
         private readonly IDictionary<string, object> _data = new SortedDictionary<string, object>(StringComparer.OrdinalIgnoreCase);

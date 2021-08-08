@@ -1,14 +1,18 @@
 ﻿using PeerIsland.SqlQueryGenerator.Configuration.SqlClauses;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration
 {
-   public class QueryConfiguration
+    /// <summary>
+    /// Configuration conatining all clauses of the source string
+    /// </summary>
+    public class QueryConfiguration
     {
         public IList<AbstractClause> Clauses = new List<AbstractClause>();
 
+        /// <summary>
+        /// Enhance this to add more configuration provider
+        /// </summary>
         public QuerySettingConfiguration ReadFrom
         {
             get { return new QuerySettingConfiguration(this); }
