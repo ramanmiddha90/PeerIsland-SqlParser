@@ -8,26 +8,26 @@ namespace PeerIsland.Settings.Parser
 {
     public class JsonParser
     {
-        private static readonly IDictionary<string, object> _data = new SortedDictionary<string, object>(StringComparer.OrdinalIgnoreCase);
+        private readonly IDictionary<string, object> _data = new SortedDictionary<string, object>(StringComparer.OrdinalIgnoreCase);
 
 
-        public static IDictionary<string, object> ParseJObject(JObject clauseSection)
+        public  IDictionary<string, object> ParseJObject(JObject clauseSection)
         {
             VisitJObject(clauseSection);
             return _data;
         }
-        private static void VisitJObject(JObject jObject)
+        private void VisitJObject(JObject jObject)
         {
             foreach (var property in jObject.Properties())
             {
                 VisitProperty(property);
             }
         }
-        private static void VisitProperty(JProperty property)
+        private  void VisitProperty(JProperty property)
         {
             VisitToken(property.Value,property.Name);
         }
-        private static void VisitToken(JToken token,string PropertyName="")
+        private void VisitToken(JToken token,string PropertyName="")
         {
             switch (token.Type)
             {
@@ -54,7 +54,7 @@ namespace PeerIsland.Settings.Parser
             }
         }
 
-        private static void VisitArray(string propertyName,JArray array)
+        private void VisitArray(string propertyName,JArray array)
         {
             var valueItems = new List<string>();
             JToken token=null;
@@ -73,7 +73,7 @@ namespace PeerIsland.Settings.Parser
             }
         }
 
-        private static void VisitPrimitive(string key, JValue data)
+        private  void VisitPrimitive(string key, JValue data)
         {
 
             if (_data.ContainsKey(key))

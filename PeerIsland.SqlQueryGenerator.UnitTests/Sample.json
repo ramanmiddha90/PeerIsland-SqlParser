@@ -7,6 +7,10 @@
         "Date"
       ],
       "IsDistinctIncluded": "True"
+    },
+    {
+      "Type": "From",
+      "TableName": "Table1"
     }
   ]
 }

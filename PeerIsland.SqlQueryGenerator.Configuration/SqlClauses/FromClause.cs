@@ -1,17 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 {
+
     public class FromClause : AbstractClause
     {
+        private readonly static string FromClauseType = "From";
         public string TableName { get; private set; }
 
         public string Alias { get; private set; }
 
-        internal FromClause(string type,string tableName, string alias) : base(type)
+        public IDictionary<string, IDictionary<string, object>> ClauseSection { get; private set; }
+
+        public FromClause() : base(FromClauseType)
         {
-            this.TableName = tableName;
-            this.Alias = alias;
+
         }
 
         public override bool IsValidClause()
@@ -19,14 +23,31 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
             return !string.IsNullOrEmpty(TableName);
         }
 
-        public override AbstractClause WithClauseProperties(IDictionary<string, IDictionary<string, object>> clause)
+        public override AbstractClause WithClauseProperties(IDictionary<string, IDictionary<string, object>> clauseProperties)
         {
-            throw new System.NotImplementedException();
+            this.ClauseSection = clauseProperties;
+            return this;
         }
 
         public override AbstractClause Build()
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                var clauseProperties = ClauseSection[ClauseType];
+
+                if (clauseProperties == null || clauseProperties.Count <= 0)
+                    throw new InvalidOperationException();
+
+                this.TableName = PropertyBinder.BindProperty<string>("TableName", ClauseSection);
+                this.Alias = PropertyBinder.BindProperty<string>("Alias", ClauseSection);
+              
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Error creating select clause {ex.Message}");
+            }
+            return this;
+
         }
     }
 }

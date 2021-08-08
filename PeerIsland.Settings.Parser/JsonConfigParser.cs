@@ -28,7 +28,7 @@ namespace PeerIsland.Settings.Parser
                 AbstractClause sqlClause;
                 var clauseType = column.SelectToken("Type").Value<string>();
                 var properties = new Dictionary<string, IDictionary<string, object>>();
-                properties.Add(clauseType, JsonParser.ParseJObject((JObject)column) as IDictionary<string, object>);
+                properties.Add(clauseType, new JsonParser().ParseJObject((JObject)column) as IDictionary<string, object>);
                 sqlClause = ClauseHandlerFactory.InitializeClause(clauseType, properties);
                 clauses.Add(sqlClause);
             }
