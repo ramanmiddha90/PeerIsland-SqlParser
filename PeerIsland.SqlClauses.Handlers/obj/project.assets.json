@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlClauses.Handlers\\PeerIsland.SqlClauses.Json.Handlers.csproj",
+      "projectUniqueName": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlClauses.Handlers\\PeerIsland.SqlClauses.Json.Handlers.csproj",
       "projectName": "PeerIsland.SqlClauses.Json.Handlers",
-      "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlClauses.Handlers\\PeerIsland.SqlClauses.Json.Handlers.csproj",
+      "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlClauses.Handlers\\PeerIsland.SqlClauses.Json.Handlers.csproj",
       "packagesPath": "C:\\Users\\Raman Kumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlClauses.Handlers\\obj\\",
+      "outputPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlClauses.Handlers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -55,10 +55,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Raman Kumar\\source\\repos\\PeerIsland.SqlQueryGenrator\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj"
+            "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj": {
+              "projectPath": "C:\\Code\\PeerIsland-SqlParser\\PeerIsland.SqlQueryGenerator.Configuration\\PeerIsland.SqlQueryGenerator.Configuration.csproj"
             }
           }
         }
@@ -71,23 +70,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
