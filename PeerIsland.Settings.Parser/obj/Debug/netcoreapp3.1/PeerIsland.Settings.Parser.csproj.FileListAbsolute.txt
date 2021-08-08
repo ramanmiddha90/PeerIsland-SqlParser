@@ -1,0 +1,12 @@
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csprojAssemblyReference.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.AssemblyInfoInputs.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.AssemblyInfo.cs
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csproj.CoreCompileInputs.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.deps.json
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.dll
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.pdb
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.dll
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\bin\Debug\netcoreapp3.1\PeerIsland.SqlQueryGenerator.Configuration.pdb
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.csproj.CopyComplete
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.dll
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.Settings.Parser\obj\Debug\netcoreapp3.1\PeerIsland.Settings.Parser.pdb

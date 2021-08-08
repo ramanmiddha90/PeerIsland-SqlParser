@@ -1,0 +1,12 @@
+{
+  "columns": [
+    {
+      "Type": "Select",
+      "IncludedColumns": [
+        "EmployeeName",
+        "Date"
+      ],
+      "IsDistinctIncluded": "True"
+    }
+  ]
+}

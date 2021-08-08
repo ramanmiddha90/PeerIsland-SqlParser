@@ -1,0 +1,4 @@
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csprojAssemblyReference.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.AssemblyInfoInputs.cache
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.AssemblyInfo.cs
+C:\Users\Raman Kumar\source\repos\PeerIsland.SqlQueryGenrator\PeerIsland.SqlClauses.Handlers\obj\Debug\netcoreapp3.1\PeerIsland.SqlClauses.Json.Handlers.csproj.CoreCompileInputs.cache
