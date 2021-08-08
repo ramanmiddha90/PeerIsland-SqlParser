@@ -1,1 +1,1 @@
-# PeerIsland-SqlParser
+# PeerIsland-JsonToSqlQueryParser
