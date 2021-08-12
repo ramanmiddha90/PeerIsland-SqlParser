@@ -11,6 +11,20 @@
     {
       "Type": "From",
       "TableName": "Table1"
+    },
+    {
+      "Type": "CONDITION",
+      "FieldName": "Age",
+      "FieldValue": 50,
+      "IsOr": true,
+      "Operator": "Equal"
+    },
+    {
+      "Type": "BETWEEN",
+      "FieldName": "Age",
+      "High": 50,
+      "Low": 10,
+      "IsOr": true
     }
   ]
 }

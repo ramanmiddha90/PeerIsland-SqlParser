@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 namespace PeerIsland.SqlQueryGenerator.Configuration
 {
@@ -17,6 +18,14 @@ namespace PeerIsland.SqlQueryGenerator.Configuration
                 return (T)ClauseSection.Where(t => t.Key == PropertyKey).FirstOrDefault().Value;
 
             return default(T);
+        }
+
+        public static bool BindBoolProperty(string PropertyKey, IDictionary<string, object> ClauseSection)
+        {
+            if (ClauseSection.ContainsKey(PropertyKey))
+                return Convert.ToBoolean( ClauseSection.Where(t => t.Key == PropertyKey).FirstOrDefault().Value);
+
+            return false;
         }
     }
 }

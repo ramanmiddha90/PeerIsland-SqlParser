@@ -1,10 +1,11 @@
 ﻿using PeerIsland.SqlQueryGenerator.Configuration.SqlClauses;
 using PeerIsland.SqlQueryGenrator.Builders;
-using PeerIsland.SqlQueryGenrator.Query;
+using PeerIsland.SqlQueryGenrator.AbstractBuilder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Reflection;
 namespace PeerIsland.SqlQueryGenrator
 {
     /// <summary>
@@ -66,16 +67,48 @@ namespace PeerIsland.SqlQueryGenrator
 
         }
 
+        public Query GetConditionalBuilder(string builderType)
+        {
+            //{
+            //    var builderTypeFullName = builderType + "Builder";
+            //    Type type = Type.GetType(builderTypeFullName);
+            //    if (type != null)
+            //        return (Query)Activator.CreateInstance(type);
+            //    foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
+            //    {
+            //        type = asm.GetType(builderTypeFullName);
+            //        if (type != null)
+            //            return (Query)Activator.CreateInstance(type);
+            //    }
+            //    return null;
+            var builderTypeFullName = "PeerIsland.SqlQueryGenrator.AbstractBuilder." + builderType + "Builder";
+          return (Query)typeof(Query).Assembly.CreateInstance(builderTypeFullName);
+
+        }
+
         public string ProcessWhere(IList<AbstractClause> clauses)
         {
             var fromBuilder = new StringBuilder();
-            var selectClauses = clauses.Where(t => t.ClauseType.ToUpper() == "CONDITION").ToList();
+            var selectClauses = clauses.Where(t => typeof(AbstractCondition).IsAssignableFrom(t.GetType())).ToList();
 
             if (selectClauses != null && selectClauses.Count() > 0)
             {
                 fromBuilder.Append("where");
-                var conditionBuilder = new ConditionBuilder();
-                selectClauses.ForEach(x => conditionBuilder.Build(fromBuilder, x));
+                var count = 0;
+                selectClauses.ForEach(x =>
+                {
+                    var conditonClause = ((AbstractCondition)x);
+                    var builder = GetConditionalBuilder(conditonClause.BuilderType);
+                    builder.Build(fromBuilder, x);
+                    if (count < selectClauses.Count -1)
+                    {
+                        if (conditonClause.IsOR)
+                            fromBuilder.Append(" Or");
+                        else
+                            fromBuilder.Append(" And");
+                    }
+                    count++;
+                });
             }
 
             return fromBuilder.ToString();

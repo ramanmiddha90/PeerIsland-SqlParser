@@ -17,7 +17,7 @@ namespace PeerIsland.SqlQuery.UnitTests
             jsonData = File.ReadAllText(path);
 
             var result = manager.GenerateQueryFromJson(jsonData);
-            Assert.AreEqual(result, "Select distinct EmployeeName,Date From Table1");
+            Assert.AreEqual(result, "Select distinct EmployeeName,Date From Table1 where Age = 50 Or Age Between[50,10]");
         }
         [TestMethod]
         public void GenerateQueyrFromJsonWithWhereCondition()

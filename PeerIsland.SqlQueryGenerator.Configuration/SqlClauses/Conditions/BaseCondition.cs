@@ -1,14 +1,21 @@
-﻿namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
+﻿using PeerIsland.SqlQueryGenerator.Configuration.SqlClauses.Enums;
+
+namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 {
-    public abstract class BaseCondition : AbstractClause
+    public abstract class AbstractCondition : AbstractClause 
     {
+
+        public string FieldName { get; set; }
+
+        public string BuilderType { get; set; }
+
+        public bool IsOR { get; set; }
+
         public override abstract bool IsValidClause();
 
-        internal BaseCondition(string type) : base(type)
+        public AbstractCondition(string type) : base(type)
         {
 
         }
-
-
     }
 }

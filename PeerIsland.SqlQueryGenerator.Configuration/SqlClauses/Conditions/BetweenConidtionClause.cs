@@ -1,14 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses.Conditions
 {
-    public class BetweenConidtionClause<T> : BaseCondition
+    public class BetweenConidtionClause : AbstractCondition
     {
-        public string ColumnName { get; set; }
-        public T Higher { get; set; }
-        public T Lower { get; set; }
+        
+        public string Low  { get; set; }
+        public string High { get; set; }
 
-        public BetweenConidtionClause() : base("Between")
+        public IDictionary<string, IDictionary<string, object>> ClauseSection { get; private set; }
+        public BetweenConidtionClause() : base("BETWEEN")
         {
         }
 
@@ -17,14 +19,33 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses.Conditions
             return true;
         }
 
+
         public override AbstractClause WithClauseProperties(IDictionary<string, IDictionary<string, object>> clause)
         {
-            throw new System.NotImplementedException();
+            this.ClauseSection = clause;
+            return this;
         }
 
         public override AbstractClause Build()
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                var clauseProperties = ClauseSection[ClauseType];
+
+                if (clauseProperties == null || clauseProperties.Count <= 0)
+                    throw new InvalidOperationException();
+
+                this.FieldName = PropertyBinder.BindProperty<string>("FieldName", clauseProperties);
+                this.IsOR = PropertyBinder.BindBoolProperty("IsOr", clauseProperties);
+                this.High = PropertyBinder.BindProperty<string>("High", clauseProperties);
+                this.Low = PropertyBinder.BindProperty<string>("Low", clauseProperties);
+                this.BuilderType = "Between";
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Error creating select clause {ex.Message}");
+            }
+            return this;
         }
     }
 }

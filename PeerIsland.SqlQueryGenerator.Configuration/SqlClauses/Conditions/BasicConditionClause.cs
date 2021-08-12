@@ -4,12 +4,9 @@ using System.Collections.Generic;
 
 namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 {
-    public class BasicConidtionClause : BaseCondition
+    public class BasicConidtionClause : AbstractCondition
     {
         public OperatorTypes OperatorType { get; set; }
-
-        public string FieldName { get; set; }
-
         public string FieldValue { get; set; }
 
         public BasicConidtionClause() : base("Condition")
@@ -42,6 +39,8 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
 
                 this.FieldValue = PropertyBinder.BindProperty<string>("FieldValue", clauseProperties);
 
+                this.IsOR = PropertyBinder.BindBoolProperty("IsOr", clauseProperties);
+
                 if (string.IsNullOrEmpty(FieldValue))
                     throw new FormatException("FieldValue missing");
 
@@ -49,6 +48,8 @@ namespace PeerIsland.SqlQueryGenerator.Configuration.SqlClauses
                     this.OperatorType = operatorType;
                 else
                     throw new FormatException("FieldValue missing");
+
+                this.BuilderType = "Condition";
             }
             catch (Exception ex)
             {
